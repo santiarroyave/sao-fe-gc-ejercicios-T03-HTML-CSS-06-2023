@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-size: 1.3em;
 }
@@ -15,8 +19,12 @@ body {
 .contenedor{
     background-color: #E1F5FE;
 	width: 98%;
+	max-width: 1000px;
     margin: auto;
     padding: 2em;
+
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 li {
@@ -25,19 +33,10 @@ li {
 
 
 /* 480 768 1024 */
-@media (min-width: 1024px){
-	.contenedor{
-		width: 1000px;
-	}
-}
-
 @media (max-width: 1024px){
 	.contenedor{
 		padding-left: 2%;
 		padding-right: 2%;
-	}
-
-	main section:first-child{
-		margin-top: 50px;
+		max-width: 96%;
 	}
 }
