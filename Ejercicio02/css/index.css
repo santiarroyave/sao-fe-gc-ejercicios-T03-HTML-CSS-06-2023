@@ -1,6 +1,17 @@
 body{
     background-color:#E1EDE0;
 }
+
+.contenedor{
+	width: 98%;
+	max-width: 1000px;
+    margin: auto;
+    padding: 2em;
+
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
@@ -11,4 +22,13 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     color: #00807A;
+}
+
+/* 480 768 1024 */
+@media (max-width: 1024px){
+	.contenedor{
+		padding-left: 2%;
+		padding-right: 2%;
+		max-width: 96%;
+	}
 }
