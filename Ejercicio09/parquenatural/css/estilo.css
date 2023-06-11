@@ -88,5 +88,9 @@ p{
 @media (max-width: 768px){
 	.contenedor{
         flex-direction: column;
-	}
+    }
+    
+    nav{
+        padding-left: 1;
+    }
 }
