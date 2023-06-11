@@ -1,0 +1,18 @@
+.contenedor{
+	width: 98%;
+	max-width: 1000px;
+    margin: auto;
+    padding: 2em;
+	
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* 480 768 1024 */
+@media (max-width: 1024px){
+	.contenedor{
+		padding-left: 2%;
+		padding-right: 2%;
+		max-width: 96%;
+	}
+}
