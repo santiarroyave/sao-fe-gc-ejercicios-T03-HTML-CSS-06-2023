@@ -32,4 +32,5 @@ ul{
 .contenido{
     border: 2px solid #dedede;
     padding: 1em;
+    text-align: justify;
 }
