@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+}
+
+.contenedor{
+	width: 98%;
+    margin: auto;
+}
+
+/* 480 768 1024 */
+@media (max-width: 1024px){
+	.contenedor{
+		padding-left: 2%;
+		padding-right: 2%;
+		max-width: 96%;
+	}
+}
