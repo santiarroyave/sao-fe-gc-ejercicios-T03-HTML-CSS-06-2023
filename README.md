@@ -1,4 +1,4 @@
-# sao-fe-gc-ejercicios-T28-HTML-CSS-06-2023
+# T03 - HTML y CSS
 
 [Ver el índice](https://santiarroyave.github.io/sao-fe-gc-ejercicios-T03-HTML-CSS-06-2023/)
 
